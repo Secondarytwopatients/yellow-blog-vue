@@ -5,7 +5,7 @@
 import axios  from 'axios'
 import ELement from 'element-ui'
 
-axios.defaults.baseURL="http://81.68.86.54:9056"
+axios.defaults.baseURL="http://127.0.0.1:9056"
 
 //前置拦截
 axios.interceptors.request.use(config =>{
